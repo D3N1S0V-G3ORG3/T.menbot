@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GagarinTap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GagarinTap</h1>
+        <div class="game-area">
+            <!-- Игровой круг -->
+            <div class="tap-circle" id="tapCircle"></div>
+
+            <!-- Отображение количества монет -->
+            <div class="coin-counter">
+                <span id="coinCount">0.00 YGC</span>
+            </div>
+
+            <!-- Кнопки -->
+            <div class="buttons">
+                <button id="levelUpButton">UP (1000 YGC)</button>
+                <button id="airdropButton">Airdrop</button>
+            </div>
+
+            <!-- Уровень -->
+            <div id="levelDisplay">Уровень: 0</div>
+        </div>
+
+        <!-- Сообщение о Airdrop -->
+        <div id="airdropMessage" class="hidden">Скоро...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
